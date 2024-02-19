@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Navbar</title>
+
+
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo"></div>
+        <ul class="nav-list">
+            <li ><a href="#">SharePoint Home</a></li>
+            <li><a href="#">Communities</a></li>
+            <li><a href="#">Department</a></li>
+            <li><a href="#">Newsfeed</a></li>
+            <li><a href="#">MyDrive</a></li>
+            <li class="nav-active"><a href="#">Site</a></li>
+        </ul>
+        <div class="toggle-button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <div class="sec-1">
+        <div class="container">
+            <div class="sec-inner">
+                <div class="logo1"><img src="./img/2logo.png" alt=""></div>
+                <div class="search-box">
+                    <input type="text" class="search-input" placeholder="search this site">
+                    <button class="search-btn"><i class="fa-solid fa-magnifying-glass"
+                            style="color: #fff;"></i></button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="background-image">
+        <div class="container-img">
+            <div class="content bg-sec1">
+                <h1 class="h-font">Helping Pilots </h1>
+                <h1 class="h-font">Take Flight</h1><br>
+                <p>Representing the pilots of</p>
+                <p> Americans Airline</p><br>
+                <a href="#" class="openModalBtn" style="color: #fff;">
+                    <span class="pad-icon1" >LEARN MORE
+                    </span>
+                <i class="fa-solid fa-play"></i>
+            </a>
+
+
+            </div>
+
+            <div class="content bg-sec2">
+                <ul>
+                    <li class="img-list img-list-active">
+                        <h3>Representing 15,000 Members</h3>
+                        <p>Founded in 1963. APA has grown into the world's largest independent pilots' union,
+                            representing 15,000 members.
+                        </p>
+                    </li>
+                    <li class="img-list">
+                        <h3>Supporting Aviation Safety</h3>
+                        <p>APA is dedicated to keeping the skies safe. devoting 20% of its dues income to support
+                            aviation safety.</p>
+                    </li>
+                    <li class="img-list">
+                        <h3>Lobbying for Pilots' Interested </h3>
+                        <p>The APA Government Affairs Committee serves as the official voice of APA pilots in our
+                            nation's capital.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card-sect">
+            <div class="card" id="tabCard1">
+                <div class="tabs">
+                    <div class="tab" id="tab1"><img src="./img/5.jpeg" class="pad-icon1" alt="">BULLETINS</div>
+                    <div class="tab" id="tab2"><img src="./img/4.jpeg" class="pad-icon1" alt="">NEWS</div>
+                </div><br>
+                <div class="tab-content" id="content1">
+                    <h6>JUN 28,2020</h6><br>
+                    <span style="color:#01A5E4 ;">
+                        <h4>2020 Plane PULL Challenge</h4>
+                    </span><br>
+                    <p>If you'vealways wanted to try your hand at pulling a multi-tonne airliner keep reading! </p><br>
+                    <a href="#" class="openModalBtn"><span style="color: #01A5E4;"><b>READ MORE</b></a></span><br><br>
+
+                    <a class="pad-icon1 gray-color"><i class="fa-regular fa-comment pad-icon "></i>2,155</a>
+                    <a class="pad-icon1 gray-color"><i class="fa-solid fa-retweet pad-icon"></i>2,029</a>
+                    <a class="pad-icon1 gray-color"><i class="fa-regular fa-heart pad-icon"></i>2,029</a>
+                    <a class="pad-icon1 gray-color"><i class="fa-solid fa-share-nodes pad-icon"></i></a>
+
+                </div>
+                <div class="tab-content" id="content2" style="display: none;">
+                    <h6>JUN 28,2020</h6><br>
+                    <span style="color:#01A5E4 ;">
+                        <h4> Plane Challenge</h4>
+                    </span><br>
+                    <p> Pulling a multi-tonne airliner keep reading! </p><br>
+                    <a href="#" class="openModalBtn"><span style="color: #01A5E4;font-weight: 600;"><b>READ
+                                MORE</b></a></span><br><br>
+                    <a class="pad-icon1 gray-color"><i class="fa-regular fa-comment pad-icon "></i>2,155</a>
+                    <a class="pad-icon1 gray-color"><i class="fa-solid fa-retweet pad-icon"></i>2,029</a>
+                    <a class="pad-icon1 gray-color"><i class="fa-regular fa-heart pad-icon"></i>2,029</a>
+                    <a class="pad-icon1 gray-color"><i class="fa-solid fa-share-nodes pad-icon"></i></a>
+                </div>
+            </div>
+
+            <div class="card" id="tabCard2">
+                <div class="tabs">
+                    <div class="tab active" id="tab1"><img src="./img/5.jpeg" class="pad-icon1" alt="">BULLETINS</div>
+                    <div class="tab" id="tab2"><img src="./img/4.jpeg" class="pad-icon1" alt="">NEWS</div>
+                </div><br>
+                <div class="tab-content" id="content2">
+                    <h6>JUN 28,2020</h6><br>
+                    <span style="color:#01A5E4 ;">
+                        <h4>2020 Plane PULL Challenge</h4>
+                    </span><br>
+                    <p>If you'vealways wanted to try your hand at pulling a multi-tonne airliner keep reading! </p><br>
+                    <a href="#" class="openModalBtn"><span style="color: #01A5E4;"><b>READ MORE</b></a></span><br><br>
+
+                    <a class="pad-icon1 gray-color"><i class="fa-regular fa-comment pad-icon "></i>2,155</a>
+                    <a class="pad-icon1 gray-color"><i class="fa-solid fa-retweet pad-icon"></i>2,029</a>
+                    <a class="pad-icon1 gray-color"><i class="fa-regular fa-heart pad-icon"></i>2,029</a>
+                    <a class="pad-icon1 gray-color"><i class="fa-solid fa-share-nodes pad-icon"></i></a>
+
+                </div>
+                <div class="tab-content" id="content2" style="display: none;">
+                    <h6>JUN 28,2020</h6><br>
+                    <span style="color:#01A5E4 ;">
+                        <h4> Plane Challenge</h4>
+                    </span><br>
+                    <p> Pulling a multi-tonne airliner keep reading! </p><br>
+                    <a href="#" class="openModalBtn"><span style="color: #01A5E4;font-weight: 600;"><b>READ
+                                MORE</b></a></span><br><br>
+                    <a class="pad-icon1 gray-color"><i class="fa-regular fa-comment pad-icon "></i>2,155</a>
+                    <a class="pad-icon1 gray-color"><i class="fa-solid fa-retweet pad-icon"></i>2,029</a>
+                    <a class="pad-icon1 gray-color"><i class="fa-regular fa-heart pad-icon"></i>2,029</a>
+                    <a class="pad-icon1 gray-color"><i class="fa-solid fa-share-nodes pad-icon"></i></a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="tabs">
+                    <div class="tab active" id="tab1"><img src="./img/5.jpeg" class="pad-icon1" alt="">BULLETINS</div>
+                    <div class="tab" id="tab2"><img src="./img/4.jpeg" class="pad-icon1" alt="">NEWS</div>
+                </div><br>
+                <div class="tab-content" id="content1">
+                    <h6>JUN 28,2020</h6><br>
+                    <span style="color:#01A5E4 ;">
+                        <h4>2020 Plane PULL Challenge</h4>
+                    </span><br>
+                    <p>If you'vealways wanted to try your hand at pulling a multi-tonne airliner keep reading! </p><br>
+                    <a href="#" class="openModalBtn"><span style="color: #01A5E4;"><b>READ MORE</b></a></span><br><br>
+
+                    <a class="pad-icon1 gray-color"><i class="fa-regular fa-comment pad-icon "></i>2,155</a>
+                    <a class="pad-icon1 gray-color"><i class="fa-solid fa-retweet pad-icon"></i>2,029</a>
+                    <a class="pad-icon1 gray-color"><i class="fa-regular fa-heart pad-icon"></i>2,029</a>
+                    <a class="pad-icon1 gray-color"><i class="fa-solid fa-share-nodes pad-icon"></i></a>
+
+                </div>
+                <div class="tab-content" id="content2" style="display: none;">
+                    <h6>JUN 28,2020</h6><br>
+                    <span style="color:#01A5E4 ;">
+                        <h4> Plane Challenge</h4>
+                    </span><br>
+                    <p> Pulling a multi-tonne airliner keep reading! </p><br>
+                    <a href="#" class="openModalBtn"><span style="color: #01A5E4;font-weight: 600;"><b>READ
+                                MORE</b></a></span><br><br>
+                    <a class="pad-icon1 gray-color"><i class="fa-regular fa-comment pad-icon "></i>2,155</a>
+                    <a class="pad-icon1 gray-color"><i class="fa-solid fa-retweet pad-icon"></i>2,029</a>
+                    <a class="pad-icon1 gray-color"><i class="fa-regular fa-heart pad-icon"></i>2,029</a>
+                    <a class="pad-icon1 gray-color"><i class="fa-solid fa-share-nodes pad-icon"></i></a>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="" style="margin-top: 50px;">
+            <div>
+                <img src="./img/1.jpeg" alt="" style="width: 100%;">
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="close">&times;</div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui aliquid deserunt perspiciatis minus animi
+                    obcaecati saepe corrupti labore reprehenderit assumenda.</p>
+            </div>
+           
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
+        integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+
+    </script>
+</body>
+
+</html>
